@@ -1,0 +1,205 @@
+ 
+/* INDEX */ 
+
+ /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+	  background-color:#555;
+	  color: white;
+    }
+	.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#555;
+   color: white;
+   text-align: center;
+}
+
+	body {
+  background-color: lightblue;
+}
+/* INDEX2 */  
+  
+      /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1500px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+	
+	/* CATALOGO */  
+	
+	 /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1500px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+	.titulo{
+		font-family: 'Sedgwick Ave', cursive;
+	}
+	.titulo2{
+		font-family: 'Sedgwick Ave', cursive;
+	}
+	.portada{
+		width:10%;
+		height:10%;
+	}
+	.portada1{
+		width:50px;
+		height:100px;
+	}
+	.titulo_index{
+		font-family: 'Sedgwick Ave', cursive;
+		
+	}
+	p{
+		font-family: 'Sedgwick Ave', cursive;
+		
+	}
+	/*css carrusel */
+	.carousel-inner.onebyone-carosel { 
+	margin: auto; width: 90%; 
+	}
+	.onebyone-carosel .active.left { 
+	left: -33.33%; 
+	}
+	.onebyone-carosel .active.right {
+	left: 33.33%; 
+	}
+	.onebyone-carosel .next { 
+	left: 33.33%; 
+	}
+	.onebyone-carosel .prev { 
+	left: -33.33%; 
+	}
+	text{
+	font-family: 'Sedgwick Ave', cursive;	
+	}
+	
+	/*css carrusel fin */
+	
+	/* css tabla peliculas inicio */
+	#peliculas {
+    font-family: 'Sedgwick Ave', cursive;
+    border-collapse: collapse;
+    width: 70%;
+	}
+
+	#peliculas td, #peliculas th {
+    border: 1px solid #ddd;
+    padding: 8px;
+	}
+
+	#peliculas tr:nth-child(even){background-color: #F8F8F8;}
+	
+	
+	#peliculas tr:hover {background-color: #DDDDDD;}
+
+	#peliculas th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #a0a0e7;
+    color: white;
+	}
+	/* css tabla peliculas fin */
+	
+	/* css tabla catalogo inicio */
+	#catalogo {
+    font-family: 'Sedgwick Ave', cursive;
+    border-collapse: collapse;
+    width: 70%;
+	}
+
+	#catalogo td, #catalogo th {
+    border: 1px solid #ddd;
+    padding: 8px;
+	}
+
+	#catalogo tr:nth-child(even){background-color: #F8F8F8;}
+
+	#catalogo tr:hover {background-color: #DDDDDD;}
+
+	#catalogo th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #a0a0e7;
+    color: white;
+	}
+	/* css tabla peliculas fin */
+	
+	h3{
+		 font-family: 'Sedgwick Ave', cursive;
+	}
+	.margen {
+		margin-right:50px;
+	}
+	
+	#show,#hide,#show1,#hide1 {
+	display:none;
+}
+
+	div#content {
+	display:none;
+  padding:10px;
+  background-color:#f6f6f6;
+  width:200px;
+  cursor:pointer;
+	}
+	div#content1 {
+	display:none;
+  padding:10px;
+  background-color:#f6f6f6;
+  width:200px;
+  cursor:pointer;
+	}
+
+	input#show:checked ~ div#content {
+	display:block;
+	}
+
+	input#hide:checked ~ div#content {
+	display:none;
+	}
+
+	input#show1:checked ~ div#content1 {
+	display:block;
+	}
+
+	input#hide1:checked ~ div#content1 {
+	display:none;
+	}
+/* css div persona area personal */
+	.persona{
+	color:green;
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 180%;
+    margin-left:15px;	
+	}
+	
